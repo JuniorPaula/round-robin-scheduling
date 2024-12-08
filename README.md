@@ -2,7 +2,7 @@
 
 Este é um projeto em C que implementa o **Algoritmo de Escalonamento Round Robin**, um dos algoritmos clássicos de escalonamento de processos em sistemas operacionais. O algoritmo garante a divisão justa do tempo de execução entre os processos, atribuindo um quantum de tempo fixo para cada um, e cada processo é executado de forma cíclica.
 
-## 📋 **Descrição do Projeto**
+## **Descrição do Projeto**
 
 O programa simula a execução de processos utilizando o algoritmo **Round Robin**. Ele solicita ao usuário o número de processos, o tempo de execução de cada processo e o valor do quantum. A cada ciclo, o processo é executado por um tempo igual ao quantum, ou até que seja finalizado, e depois retorna ao final da fila de processos.
 
@@ -10,7 +10,7 @@ Se todos os processos forem concluídos, o escalonador termina a execução. Dur
 
 ----------
 
-## 🛠️ **Funcionalidades**
+## **Funcionalidades**
 
 -   **Simulação de Escalonamento Round Robin**: O programa processa múltiplos processos com base no quantum fornecido.
 -   **Gerenciamento de Processos**: Para cada processo, é exibida uma mensagem indicando quando ele está sendo executado e quando ele termina.
@@ -18,23 +18,15 @@ Se todos os processos forem concluídos, o escalonador termina a execução. Dur
 
 ----------
 
-## 🚀 **Como Executar o Programa**
+## **Como Executar o Programa**
 
 1.  **Clonar o repositório ou copiar o código fonte.**
     
 2.  **Compilar o código C utilizando um compilador GCC**:
     
-    bash
-    
-    Copiar código
-    
     `gcc -o round_robin round_robin.c` 
     
 3.  **Executar o programa**:
-    
-    bash
-    
-    Copiar código
     
     `./round_robin` 
     
